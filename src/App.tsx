@@ -1,4 +1,5 @@
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/react";
 import { LayoutDashboard, Trophy, FileText, Globe, ShieldCheck, History } from 'lucide-react';
 import Dashboard from './pages/Dashboard';
 import TopicPage from './pages/TopicPage';
@@ -74,6 +75,7 @@ export default function App() {
           <Route path="/pattern" element={<ExamPattern />} />
         </Routes>
       </main>
+      <Analytics />
     </div>
   );
 }
