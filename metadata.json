@@ -1,0 +1,6 @@
+{
+  "name": "French Prep",
+  "description": "Interactive exam preparation platform for SRMIST French students featuring PYQs, concept drills, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
